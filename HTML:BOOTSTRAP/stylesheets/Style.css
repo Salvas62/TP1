@@ -1,0 +1,79 @@
+@import url(root.css);
+@import url(content.css);
+
+
+/* pas autoriser */
+.footer {
+    position: relative;
+    margin-top: auto; 
+}
+
+.footer li {
+display: inline-block; 
+margin-right: 10px; 
+}
+
+
+.footer a {
+text-decoration: none; 
+color: black; 
+}
+
+/* pas autoriser */
+
+
+.navbar-logo svg {
+    width: 30px; 
+    height: 30px;
+}
+
+.join-button {
+    background-color: black; 
+    border: 2px solid #000;
+    color: white; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    border-radius: 20px; 
+}
+
+.sign-in-button {
+    background-color: white; 
+    border: 2px solid #000; 
+    color: black; 
+    padding: 10px 20px;
+    cursor: pointer; 
+    border-radius: 20px;
+}
+
+div {
+    margin-top: 10px;
+}
+
+div img {
+    width: fit-content;
+
+}
+
+@media (max-width: 600px) {
+    .row {
+        display: block; 
+    }
+
+    .col {
+        flex-basis: auto; 
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    img {
+        margin-top: 10px;
+    }
+
+    li > ul {
+        display: none;
+    }
+
+    ul > li.navitem  {
+        display: none;
+    }
+}

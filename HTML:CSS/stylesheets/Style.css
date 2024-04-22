@@ -1,0 +1,55 @@
+@import url(Layout.css);
+@import url(root.css);
+@import url(header.css);
+@import url(content.css);
+@import url(footer.css);
+
+
+
+
+.center-align {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.text-center{
+    text-align: center;
+}
+
+div {
+    margin-top: 10px;
+}
+
+div img {
+    width: fit-content;
+
+}
+
+@media (max-width: 600px) {
+    .row {
+        display: block; 
+    }
+
+    .col {
+        flex-basis: auto; 
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    img {
+        margin-top: 10px;
+    }
+
+    li > ul {
+        display: none;
+    }
+
+    ul > li.navitem  {
+        display: none;
+    }
+
+    
+
+
+}
